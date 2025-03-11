@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Programming-Using-Cpp-Level1-Co3/v17/.wsuo
+*.json
+*.db
+/Homework!/.vs/Homework!/CopilotIndices/17.13.433.20974/SemanticSymbols.db-shm
+*.db-wal
+*.vsidx
+*.db-shm
+*.opendb
+*.ipch
+*.vcxproj
+*.user
+/Homework!/Homework!/Homework!.vcxproj.filters
+/Homework!/Homework!/x64/Debug/Homework!.exe.recipe
+*.ilk
+*.log
+*.obj
+*.tlog
+*.pdb
+*.idb
+*.exe
+*.filters
+*.recipe
+*.suo
