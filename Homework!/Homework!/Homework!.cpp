@@ -10,6 +10,7 @@ void PrintCardID() {
 	cout << "city :" << "Tampa\n";
 	cout << "Country: " << "USA\n";
 	cout << "Phone Number : " << "8787676654543\n";
+	cout << "Email : " << "redactedMail@mail.com\n";
 	cout << "*******************\n";
 
 }
