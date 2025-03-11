@@ -7,7 +7,8 @@ using namespace std;
 int main()
 {
     cout << "M1"<< "M2" <<"M3\n";
-    cout << "M1 " << "M2 " << "M3 ";
+    cout << "M1 " << "M2 " << "M3 \n";
+    cout << "The resutls of " << "5 + 10 = " << 10 + 5 << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
