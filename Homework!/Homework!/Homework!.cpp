@@ -21,10 +21,18 @@ void PrintStars() {
 	cout << "*************\n";
 	
 }
+void PrintIdea() {
+	cout << "I Love Programming!\n\n";
+	cout << "I promise to be best developer ever!\n\n";
+	cout << "I Know it will take some time to practice, but I "<< "\n" << " will achive my gool.\n\n";
+	cout << "Best Regards.\n";
+	cout << "Redacted Name.\n";
+}
 
 int main()
 {
 	PrintCardID();
 	PrintStars();
+	PrintIdea();
 }
 
