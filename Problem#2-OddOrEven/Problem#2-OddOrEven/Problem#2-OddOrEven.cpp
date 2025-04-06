@@ -10,15 +10,17 @@ int  ReadNumber() {
     return Number;
 }
 
-enNumberType CheckNumberType(int Number) {
+enNumberType CheckNumberType(int Number)
+{
     int Result = Number % 2;
     if (Result == 0)
         return enNumberType::Even;
     else
         return enNumberType::Odd;
 }
-void PrintNumberType() {
-    if (checkNumberType == enNumberType::Even)
+void PrintNumberType(enNumberType NumberType) 
+{
+    if (CheckNumberType == enNumberType::Even)
         cout << "\n Number is Even.\n";
     else
         cout << "\n Number is odd \n";
