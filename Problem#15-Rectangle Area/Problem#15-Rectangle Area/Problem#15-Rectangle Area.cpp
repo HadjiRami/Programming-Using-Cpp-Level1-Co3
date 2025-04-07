@@ -11,6 +11,7 @@ float  ReadNamber(float& A, float& B) {
     return A * B;
 }
 
+
 void PrintResult(float Area) {
     cout << "\nThe Rectangle Area = \n" << Area<< endl;
 }
