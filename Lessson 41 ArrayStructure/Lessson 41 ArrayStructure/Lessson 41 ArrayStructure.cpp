@@ -24,8 +24,8 @@ void PrintInfo(strInfo Info) {
 	cout << "\n*****************************\n";
 	cout << "FirstName : " << Info.FirstName << endl;
 	cout << "FirstName : " << Info.LastName << endl;
-	cout << "FirstName : " << Info.Age << endl;
-	cout << "FirstName : " << Info.Phone << endl;
+	cout << "Age : " << Info.Age << endl;
+	cout << "Pone : " << Info.Phone << endl;
 	cout << "\n*****************************\n";
 }
 
