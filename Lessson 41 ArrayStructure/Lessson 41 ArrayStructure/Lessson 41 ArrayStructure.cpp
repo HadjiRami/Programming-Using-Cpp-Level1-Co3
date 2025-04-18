@@ -5,14 +5,14 @@
 #include <string>
 using namespace std;
 struct strInfo {
-	string FirsetName;
+	string FirstName;
 	string LastName;
 	int Age;
 	string Phone;
 };
 void ReadInfo(strInfo& Info) {
 	cout << "Enter Your Firset Name:?\n";
-	cin >> Info.FirsetName ;
+	cin >> Info.FirstName;
 	cout << "Enter Last Name?\n";
 	cin >> Info.LastName;
 	cout << "Enter Your Age?\n";
@@ -22,8 +22,8 @@ void ReadInfo(strInfo& Info) {
 }
 void PrintInfo(strInfo Info) {
 	cout << "\n*****************************\n";
-	cout << "FirstName : " << Info.FirsetName << endl;
-	cout << "FirstName : " << Info.FirsetName << endl;
+	cout << "FirstName : " << Info.FirstName << endl;
+	cout << "FirstName : " << Info.LastName << endl;
 	cout << "FirstName : " << Info.Age << endl;
 	cout << "FirstName : " << Info.Phone << endl;
 	cout << "\n*****************************\n";
